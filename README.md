@@ -1,4 +1,4 @@
-# Student-Information-Database
+# Student Information Database
 
 This simple Java project incorporates the use of JDBC (Java Database Connectivity) to enter student information into an MySQL database in terms of a student's ID, name, and major. This information is provided in a text file which is then parsed to extract a student's information. The information is inserted from the file into a table called "student" in the connected MySQL database. The program handles potential errors that may occur during the database connection process, file reading, or database operations, such as invalid student records or database connectivity issues. After all information has been successfully inserted, it closes the connection to the MySQL database after all student records have been processed and inserted.
 
